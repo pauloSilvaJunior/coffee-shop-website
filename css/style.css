@@ -265,17 +265,47 @@ section{
     line-height: 1.8;
 }
 
+.menu .box-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
 
+.menu .box-conteiner .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
 
+.menu .box-conteiner .box img{
+    height: 10rem;
+}
 
+.menu .box-conteiner .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
 
+}
 
+.menu .box-conteiner .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 5rem 0;
+}
 
+.menu .box-conteiner .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
 
+.menu .box-conteiner .box:hover{
+    background: #fff;
+}
 
-
-
-
+.menu .box-conteiner .box:hover >*{
+    color: var(--black);
+}
 
 
 

@@ -367,6 +367,42 @@ section{
     text-decoration: line-through;
 }
 
+.review .box-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box-conteiner .box{
+    text-align: center;
+    border: var(--border);
+    padding:3rem 2rem;
+}
+
+.review .box-conteiner .box p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 2rem 0;
+}
+
+.review .box-conteiner .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-conteiner .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.review .box-conteiner .box .stars i{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
 
 
 
